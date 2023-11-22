@@ -1,38 +1,79 @@
-.App {
+
+
+/* Style for buttons */
+button {
+  background-color: #28a745; /* Green */
+  color: #fff; /* White text */
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #6c757d; /* Gray for disabled state */
+  cursor: not-allowed;
+}
+
+/* Style for modal */
+.modal-content {
+  background-color: #f8f9fa; /* Light Gray */
+}
+
+/* Style for table */
+.table th, .table td {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table thead th {
+  background-color: #007bff; /* Blue */
+  color: #fff; /* White text */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.table tbody tr:hover {
+  background-color: #e2e6ea; /* Lighter Gray on hover */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Style for edit button */
+button.edit-btn {
+  background-color: #ffc107; /* Yellow */
+  color: #212529; /* Dark text */
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button.edit-btn:hover {
+  background-color: #ffca2c; /* Lighter Yellow on hover */
+}
+
+
+
+
+/* Center the TimerSection */
+#timer-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  text-align: center; /* Center text */
 }
 
-.App-link {
-  color: #61dafb;
+/* Style for buttons */
+button {
+  background-color: #28a745; /* Green */
+  color: #fff; /* White text */
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:disabled {
+  background-color: #6c757d; /* Gray for disabled state */
+  cursor: not-allowed;
 }
